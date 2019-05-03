@@ -58,7 +58,8 @@ export class ProfileDetailsComponent
         "city":"Mumbai",
         "imageUrl":"assets/images/profile.jpg",
         "firstAddress":"Shiivaji Chowk , Near Axis Bank ,Mumbai",
-        "secondAddress":"LMN Road ,Near Railway Station,Thane"
+        "secondAddress":"LMN Road ,Near Railway Station,Thane",
+        "comments":"Delicious food and good service"
     }
    
 }

@@ -1,10 +1,16 @@
-<div class="container-fluid">
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="nav">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">ToGo</a>
+   <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand"  routerLink="home">
+    <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    FoodApp
+  </a>
+</nav>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav navbar-right ml-auto">
         <li class="nav-item ">
@@ -16,27 +22,13 @@
             <a class="nav-link" routerLink="order">Order Food</a>
 
           </li> 
-          <li>
-            <div class="btn-group">
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                      Profile
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" routerLink="profile">Profile</a>
-                      <a class="dropdown-item" href="#">Settings</a>
-                      <a class="dropdown-item" routerLink="home">Log out</a>
-                       <!-- <div class="dropdown-divider"></div> -->
-                      <!-- <a class="dropdown-item" href="#">Separated link</a> -->
-                    </div> 
-                  </div>
-     </li>
        
-<!-- login form -->
+
 
         <li class="nav-item">
 
           <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Login</a>
-         <form > 
+
           <!-- The Modal -->
           <div class="modal fade" id="myModal">
             <div class="modal-dialog">
@@ -67,7 +59,7 @@
                         </label>
                       </div>
 
-                  </form> 
+                    </form>
                   </div>
                 </div>
 
@@ -80,11 +72,8 @@
               </div>
             </div>
           </div>
-        </form>
         </li>
-   
 
-<!-- sign up form -->
         <li class="nav-item">
           <a class="nav-link" href="#" data-toggle="modal" data-target="#my">Create New Account</a>
           <div class="modal fade" id="my">
@@ -169,6 +158,22 @@
       </ul>
     </div>
   </nav>
+<br>
+<li>
+               <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                      Profile
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" routerLink="profile">Profile</a>
+                      <a class="dropdown-item" href="#">Settings</a>
+                      <a class="dropdown-item" routerLink="home">Log out</a>
+                       <!-- <div class="dropdown-divider"></div> -->
+                      <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                    </div> 
+                  </div>
+ </li>
+
 
 <!--  
 
@@ -233,8 +238,9 @@
 <router-outlet></router-outlet>
 
 <br>
-<br>
-<div class="container-fluid">
+<br><br>
+
+
 
   <footer class="bg-dark" style="color:white">
     <div class="container">
@@ -288,4 +294,4 @@
     </div>
   </footer>
 
-</div>
+
